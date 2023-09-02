@@ -1,0 +1,76 @@
+.projects__titleLink {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.projects__titleLink:hover {
+    color: var(--primary, #C778DD);
+}
+
+.projects__list {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 16px; */
+}
+
+.projects__img {
+    height: 200px;
+    background-image: url(../resources/projects/metrika.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 25%;
+}
+
+.projects__item {
+    width: 300px;
+    border: 1px solid var(--gray, #ABB2BF);
+}
+
+.projects__lang {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    border: 1px solid var(--gray, #ABB2BF);
+}
+
+.projects__info {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border: 1px solid var(--gray, #ABB2BF);
+}
+
+.projects__infoName {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.projects__infoText {
+    font-size: 16px;
+    color: var(--gray, #ABB2BF);
+}
+
+.projects__info-inner {
+    display: flex;
+    gap: 16px;
+}
+
+.projects__infoLink {
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid var(--primary, #C778DD);
+    text-decoration: none;
+    color: var(--gray, #ABB2BF);
+}
+
+.projects__infoLink:hover {
+    color: var(--white, #FFF);
+    background: rgba(199, 120, 221, 0.20);
+}
+
+.projects li {
+    display: block;
+}

@@ -1,0 +1,117 @@
+.welcome__wrap {
+    margin-bottom: 112px;
+    display: inline-flex;
+    gap: 16px;
+}
+
+.welcome__inner {
+    width: 50%;
+}
+
+.gap {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.welcome__title {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.welcome__text {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--gray, #ABB2BF);
+}
+
+.welcome__btn {
+    padding: 8px 16px;
+    width: 148px;
+    border: 1px solid var(--primary, #C778DD);
+    background: none;
+    color: var(--white, #FFF);
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.welcome__btn:hover {
+    background: rgba(199, 120, 221, 0.20);
+    
+}
+
+.welcome__curPortfolio {
+    margin-left: 30px;
+    display: flex;
+    gap: 8px;
+    width: 402px;
+    padding: 8px;
+    border: 1px solid var(--gray, #ABB2BF);
+    background: var(--background, #282C33);
+}
+
+.welcome__quadrate {
+    width: 16px;
+    height: 16px;
+    background: var(--primary, #C778DD);
+    border: 1px solid var(--primary, #C778DD);
+}
+
+.welcome__curPortfolio p {
+    font-size: 16px;
+    color: gray;
+    font-weight: 600;
+}
+
+.welcome__quoteWrap {
+    margin: auto;
+    width: 716px;
+}
+
+.welcome__quote {
+    position: relative;
+    padding: 32px;
+    border: 1px solid var(--gray, #ABB2BF);
+    background: var(--background, #282C33);
+}
+
+.welcome__quote::after {
+    position: absolute;
+    content: '';
+    left: 11px;
+    top: -18px;
+    width: 41px;
+    height: 28px;
+    background-image: url(../resources/welcome-page/welcome__qoute.png);
+    background-size: cover;
+    z-index: 100;
+}
+
+.welcome__quoteText {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.welcome__quoteName {
+    position: relative;
+    padding: 16px;
+    float: right;
+    border: 1px solid var(--gray, #ABB2BF);
+}
+
+.welcome__quoteName::after {
+    position: absolute;
+    content: '';
+    right: 23.53px;
+    top: -18px;
+    width: 41px;
+    height: 28px;
+    background-image: url(../resources/welcome-page/welcome__qoute.png);
+    background-size: cover;
+}
+
+.welcome__quoteNameText {
+    font-size: 24px;
+    font-weight: 400;
+}

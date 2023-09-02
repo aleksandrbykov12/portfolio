@@ -1,0 +1,35 @@
+.skills__wrap {
+    display: flex;
+    gap: 100px;
+}
+
+.skills__images {
+    margin-left: 30px;
+}
+
+.skills__list {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.skills__item {
+    width: 200px;
+}
+
+.skills__subtitle {
+    padding: 8px;
+    border: 1px solid var(--gray, #ABB2BF);
+}
+
+.skills__subtitle p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.skills__text {
+    padding: 8px;
+    display: flex;
+    gap: 8px;
+    border: 1px solid var(--gray, #ABB2BF);
+}

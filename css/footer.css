@@ -1,0 +1,38 @@
+.footer {
+    margin-top: 120px;
+    padding: 32px 0 32px 0;
+    border-top: 1px solid #abb2bf;
+}
+
+.footer__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__text {
+    font-size: 16px;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer__links p {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer__linksInner {
+    display: flex;
+    gap: 8px;
+}
+
+.footer__copyright {
+    margin-top: 49px;
+    text-align: center;
+    font-size: 16px;
+    color: var(--gray, #ABB2BF);
+}

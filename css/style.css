@@ -1,0 +1,62 @@
+@import url(../css/header.css);
+@import url(../css/welcome.css);
+@import url(../css/projects.css);
+@import url(../css/skills.css);
+@import url(../css/about.css);
+@import url(../css/contacts.css);
+@import url(../css/footer.css);
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Fira Code';
+    background-color: #282C33;
+    color: #fff;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 171px 0 171px;
+    max-width: 1366px;
+}
+
+.active {
+    color: #FFF;
+}
+
+/* section {
+    margin-bottom: 150px;
+} */
+
+.titleWrap {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    position: relative;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.title::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 200%;
+    height: 2px;
+    left: 110%;
+    top: 50%;
+    background-color: #c778dd;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}

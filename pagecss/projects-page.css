@@ -1,0 +1,22 @@
+@import url(../css/header.css);
+@import url(../css/style.css);
+
+.active {
+    color: #FFF;
+}
+
+.projects__title {
+    margin-bottom: 14px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.projects__text {
+    font-size: 16px;
+}
+
+.projects__subtitle {
+    margin-top: 70px;
+    font-size: 32px;
+    font-weight: 500;
+}

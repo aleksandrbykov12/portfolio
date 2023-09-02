@@ -1,0 +1,48 @@
+.contacts__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__text {
+    width: 50%;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--gray, #ABB2BF);
+}
+
+.contacts__links {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border: 1px solid var(--gray, #ABB2BF);
+}
+
+.contacts__linkText{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.contacts__link {
+    margin-left: 30px;
+    position: relative;
+    text-decoration: none;
+    color: var(--gray, #ABB2BF);
+}
+
+.contacts__link:before {
+    position: absolute;
+    content: '';
+    display: block;
+    background-image: url(../resources/contacts/telegram.png);
+    background-size: cover;
+    background-position: 50%;
+    width: 32px;
+    height: 32px;
+    top: -8px;
+    left: -35px;
+}
+
+.contacts__link:hover {
+    color: #c778dd;
+}

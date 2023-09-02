@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <section class="header">
+        <div class="container">
+          <div class="header__wrap">
+            <div class="header__logo">
+              <img
+                class="header__logoImg"
+                src="/resources/header/header-logo.png"
+                alt="логотип"
+              />
+              <h2 class="header__logoName">Aleksandr</h2>
+            </div>
+            <nav class="header__nav">
+              <a href="#" class="header__link active"
+                ><span style="color: #c778dd">#</span>home</a
+              >
+              <a href="projects.html" class="header__link"
+                ><span style="color: #c778dd">#</span>works</a
+              >
+              <a href="#about" class="header__link"
+                ><span style="color: #c778dd">#</span>about-me</a
+              >
+              <a href="#contacts" class="header__link"
+                ><span style="color: #c778dd">#</span>contacts</a
+              >
+            </nav>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="welcome">
+        <div class="container">
+          <div class="welcome__wrap">
+            <div class="welcome__inner gap">
+              <h1 class="welcome__title">
+                Aleks is a
+                <span style="color: #c778dd">web designer</span> and
+                <span style="color: #c778dd">front-end developer</span>
+              </h1>
+              <p class="welcome__text">
+                He crafts responsive websites where technologies meet creativity
+              </p>
+              <button class="welcome__btn">Contact me!!</button>
+            </div>
+            <div class="welcome__inner">
+              <div class="welcome__img">
+                <img src="resources/welcome-page/welcome-image.png" alt="" />
+              </div>
+              <div class="welcome__curPortfolio">
+                <div class="welcome__quadrate"></div>
+                <p>
+                  Currently working on
+                  <span style="color: white">Portfolio</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="welcome__quoteWrap">
+            <div class="welcome__quote">
+              <p class="welcome__quoteText">
+                With great power comes great electricity bill
+              </p>
+            </div>
+            <div class="welcome__quoteName">
+              <p class="welcome__quoteNameText">- Dr. Who</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects">
+        <div class="container">
+          <div class="projects__titleWrap titleWrap">
+            <h2 class="projects__title title">
+              <span style="color: #c778dd">#</span>projects
+            </h2>
+            <a href="projects.html" class="projects__titleLink">View all ~~></a>
+          </div>
+          <ul class="projects__list">
+            <li class="projects__item">
+              <div class="projects__img"></div>
+              <div class="projects__lang">
+                <p class="projects__langs">HTML</p>
+                <p class="projects__langs">CSS</p>
+                <p class="projects__langs">JS</p>
+              </div>
+              <div class="projects__info">
+                <h3 class="projects__infoName">Метрика</h3>
+                <p class="projects__infoText">Студия дизайна и интерьера</p>
+                <div class="projects__info-inner">
+                  <a
+                    href="https://aleksandrbykov12.github.io/metrika_2.4/"
+                    class="projects__infoLink"
+                    target="_blank"
+                    >Live</a
+                  >
+                  <a
+                    href="https://github.com/aleksandrbykov12/metrika_2.4.git"
+                    class="projects__infoLink"
+                    target="_blank"
+                    >Git</a
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="projects__item"></li>
+            <li class="projects__item"></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="skills">
+        <div class="container">
+          <div class="skills__titleWrap titleWrap">
+            <h2 class="skills__title title">
+              <span style="color: #c778dd">#</span>skills
+            </h2>
+          </div>
+          <div class="skills__wrap">
+            <div class="skills__images">
+              <img src="resources/skills/skills-images.png" alt="" />
+            </div>
+            <ul class="skills__list">
+              <li class="skills__item">
+                <div class="skills__subtitle">
+                  <p>Language</p>
+                </div>
+                <div class="skills__text">
+                  <p>HTML</p>
+                  <p>CSS</p>
+                  <p>JS</p>
+                </div>
+              </li>
+              <li class="skills__item">
+                <div class="skills__subtitle">
+                  <p>Tools</p>
+                </div>
+                <div class="skills__text">
+                  <p>VSCode</p>
+                  <p>Figma</p>
+                  <p>GitHub</p>
+                </div>
+              </li>
+              <li class="skills__item">
+                <div class="skills__subtitle">
+                  <p>Frameworks</p>
+                </div>
+                <div class="skills__text">
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="container">
+          <div class="titleWrap">
+            <h2 class="title"><span style="color: #c778dd">#</span>about-me</h2>
+          </div>
+          <div class="about__wrap">
+            <div class="about__inner">
+              <p class="about__text">
+                Hello, i’m Aleksandr! <br />
+                <br />
+                I’m a front-end developer based in Rostov-on-Don, Russia. I can
+                develop responsive websites from scratch and raise them into
+                modern user-friendly web experiences. <br />
+                <br />
+                Transforming my creativity and knowledge into a websites has
+                been my passion for over a year. I have been helping various
+                clients to establish their presence online. I always strive to
+                learn about the newest technologies and frameworks.
+              </p>
+            </div>
+            <div class="about__inner">
+              <div class="about__images">
+                <img
+                  src="resources/about/about-image.png"
+                  alt=""
+                  class="about__image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacts" class="contacts">
+        <div class="container">
+          <div class="titleWrap">
+            <h2 class="title"><span style="color: #c778dd">#</span>contacts</h2>
+          </div>
+          <div class="contacts__wrap">
+            <p class="contacts__text">
+              I’m interested in freelance opportunities. However, if you have
+              other request or question, don’t hesitate to contact me
+            </p>
+            <div class="contacts__links">
+              <p class="contacts__linkText">Message me here</p>
+              <a href="https://t.me/Reiz66" class="contacts__link">REIZ66</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrap">
+          <p class="footer__text">Web designer and front-end developer</p>
+          <div class="footer__links">
+            <p>Media</p>
+            <div class="footer__linkInner">
+              <a href="https://t.me/Reiz66" class="footer__link" target="_blank"
+                ><img src="resources/footer/telegram.png" alt=""
+              /></a>
+              <a
+                href="mailto:a.bykov12003@gmail.com"
+                class="footer__link"
+                target="_blank"
+                ><img src="resources/footer/Email.png" alt=""
+              /></a>
+              <a
+                href="https://github.com/aleksandrbykov12"
+                class="footer__link"
+                target="_blank"
+                ><img src="resources/footer/Github.png" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+        <p class="footer__copyright">© Copyright 2022. Made by Elias</p>
+      </div>
+    </footer>
+  </body>
+</html>
